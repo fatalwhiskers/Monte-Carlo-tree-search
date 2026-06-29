@@ -1,0 +1,44 @@
+﻿Build started 06/12/2015 23:05:16.
+     1>Project "C:\Users\sam\Desktop\Final_Project\Final_Year_Project\Final_Year_Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt include\connect4state.cpp include\textureloader.cpp src\circle.cpp src\score.cpp src\Source.cpp src\state.cpp
+         connect4state.cpp
+     1>c:\users\sam\desktop\final_project\final_year_project\include\node.h(256): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+                 c:\users\sam\desktop\final_project\final_year_project\include\node.h(255) : while compiling class template member function 'node<tState>::possibleMoves node<tState>::getNextMove(void)'
+                 with
+                 [
+                     tState=state
+                 ]
+                 c:\users\sam\desktop\final_project\final_year_project\include\mtsc.h(73) : see reference to function template instantiation 'node<tState>::possibleMoves node<tState>::getNextMove(void)' being compiled
+                 with
+                 [
+                     tState=state
+                 ]
+                 c:\users\sam\desktop\final_project\final_year_project\include\mtsc.h(58) : see reference to class template instantiation 'node<tState>' being compiled
+                 with
+                 [
+                     tState=state
+                 ]
+                 c:\users\sam\desktop\final_project\final_year_project\include\mtsc.h(50) : while compiling class template member function 'mtcs<state>::move mtcs<state>::runTree(tState,int)'
+                 with
+                 [
+                     tState=state
+                 ]
+                 include\connect4state.cpp(65) : see reference to function template instantiation 'mtcs<state>::move mtcs<state>::runTree(tState,int)' being compiled
+                 with
+                 [
+                     tState=state
+                 ]
+                 c:\users\sam\desktop\final_project\final_year_project\include\connect4game.h(73) : see reference to class template instantiation 'mtcs<state>' being compiled
+         textureloader.cpp
+         circle.cpp
+         score.cpp
+         Source.cpp
+     1>src\Source.cpp(6): fatal error C1083: Cannot open include file: 'connect4game.h': No such file or directory
+         state.cpp
+     1>src\state.cpp(290): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\sam\Desktop\Final_Project\Final_Year_Project\Final_Year_Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.16

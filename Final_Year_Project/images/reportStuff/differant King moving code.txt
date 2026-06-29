@@ -1,0 +1,15 @@
+if (board[newMove.at(newMove.size() - 2) + 1][newMove.at(newMove.size() - 1) + 1] == 1 
+			&& (newMove.at(newMove.size() - 2) + 1 < 7) && (newMove.at(newMove.size() - 1) + 1 < 7)
+			&& board[newMove.at(newMove.size() - 2) + 2][newMove.at(newMove.size() - 1) + 2] == 0 
+			&& ((newMove.at(newMove.size() - 2) + 2) - newMove.at(newMove.size() - 2) != directionX
+			&& (newMove.at(newMove.size() - 1) + 2) - newMove.at(newMove.size() - 1) != directionY
+			|| directionX == 0))
+		{
+				newMove.push_back(newMove.at(newMove.size() - 2));
+				newMove.push_back(newMove.at(newMove.size() - 2));
+				newMove.push_back(newMove.at(newMove.size() - 2) + 2);
+				newMove.push_back(newMove.at(newMove.size() - 2) + 2);
+				directionX = newMove.at(newMove.size() - 4) - newMove.at(newMove.size() - 2);
+				directionY = newMove.at(newMove.size() - 3) - newMove.at(newMove.size() - 1);
+
+		}

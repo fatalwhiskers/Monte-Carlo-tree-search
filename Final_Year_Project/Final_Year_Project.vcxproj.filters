@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\C4">
+      <UniqueIdentifier>{45d6db81-a2b6-41dd-938f-9aaeadd0b26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Checkerrs">
+      <UniqueIdentifier>{668dd716-8932-45b4-aa7e-75702c806a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\C4">
+      <UniqueIdentifier>{dd3fbc95-596e-4d9f-bb1f-8e02305eb9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Checkers">
+      <UniqueIdentifier>{5d3b5d0d-a82a-4ecb-933d-beac65a3f3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shapes">
+      <UniqueIdentifier>{93e01cbf-c3ba-4544-9611-72e60357b191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shapes">
+      <UniqueIdentifier>{7fd3b178-b544-422d-ba5c-502744b90ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MCTS Varients">
+      <UniqueIdentifier>{6a4e4abf-d291-4b9c-be5b-096a16a784c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{986fdfc3-65a0-444a-b056-91995dd7243c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{e1958d85-4a39-425e-b238-e416002a2bfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\textureloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\c4state.cpp">
+      <Filter>Source Files\C4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\circle.cpp">
+      <Filter>Source Files\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="include\connect4Game.cpp">
+      <Filter>Source Files\C4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\checkersGame.cpp">
+      <Filter>Source Files\Checkerrs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\checkerState.cpp">
+      <Filter>Source Files\Checkerrs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\textureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\circle.h">
+      <Filter>Header Files\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\connect4game.h">
+      <Filter>Header Files\C4</Filter>
+    </ClInclude>
+    <ClInclude Include="include\c4state.h">
+      <Filter>Header Files\C4</Filter>
+    </ClInclude>
+    <ClInclude Include="include\checkerGame.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\checkerState.h">
+      <Filter>Header Files\Checkers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mtsc.h">
+      <Filter>Header Files\MCTS Varients</Filter>
+    </ClInclude>
+    <ClInclude Include="include\menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuInterface.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UCT.h">
+      <Filter>Header Files\MCTS Varients</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HigestReward.h">
+      <Filter>Header Files\MCTS Varients</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mostVisited.h">
+      <Filter>Header Files\MCTS Varients</Filter>
+    </ClInclude>
+    <ClInclude Include="include\weightedChild.h">
+      <Filter>Header Files\MCTS Varients</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
